@@ -9,12 +9,45 @@
 <body>
 
 <div class="crumbs"> </div>
-<h1>demo</h1>
+<h1>demo 示例</h1>
+<p>
+    说明：crumbs由js写的用于web项目中导航栏的文字和样式的集成生成和管理。
+</p>
 
+
+<iframe src="web/views/about/about1.html" width="100%" height="100px"></iframe>
+<iframe src="web/views/about/about2.html" width="100%" height="100px"></iframe>
+<iframe src="web/views/about/about3.html" width="100%" height="100px"></iframe>
+<iframe src="web/views/news/list.html" width="100%" height="100px"></iframe>
+<iframe src="web/views/news/details.html" width="100%" height="100px"></iframe>
+<iframe src="web/views/special/manual.html" width="100%" height="100px"></iframe>
+
+<h2>优点</h2>
+<ul>
+    <li><b>1:使用简单</li>
+    <li><b>2：网站的导航内容和样式集中管理，更容易维护</li>
+</ul>
+
+
+<h2>使用</h2>
+<ul>
+    <li><b>1:按顺序引用文件：</b>jquery.js，crumbs.js，sitemap.js</li>
+    <li><b>2:根据自己的站点地图修改 sitemap.js：</b>参考sitemap.js </li>
+    <li><b>3:修改 crumbs.js 的第一个配置参数 pathStartWith，改为你站点路径开始匹配的第一级字段：</b>参考 crumbs.js</li>
+    <li>（可选）自己设置导航栏的样式 </li>
+</ul>
+
+
+<h2>可选配置</h2>
+<ul>
+    <li>1：最后一级可以动态绑定字段</li>
+    <li>2：可设置某一页面的crumbs手动控制</li>
+    <li>3：crumbs.js 第一个方法前可以配置生成crumbs的一级二级三级样式名称，分隔符样式，分隔符字符</li>
+</ul>
+
+
+<h2>依赖</h2><p>
+jquery 任意版本
+</p>
 </body>
-
-
-
-
-
 </html>

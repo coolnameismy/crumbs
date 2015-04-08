@@ -4,10 +4,11 @@
 (function ($) {
 	
 	//配置样式
+    var pathStartWith = "web"; //从哪一级路径开始匹配
 	var divsionClass = "gt"; //分隔符样式
 	var divsionChartper = "/";//分隔符字符
 	var crumbsClassPrefix = "level";//面包屑样式前缀
-    var pathStartWith = "web"; //从哪一级路径开始匹配
+
 
 
 	var crumbs = function(){

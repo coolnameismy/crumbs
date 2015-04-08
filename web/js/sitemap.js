@@ -12,7 +12,7 @@ var sitemap = [
                                      {
                                          "match":"details",
                                          "url":"",
-                                         "name":"{title}"//绑定字段，只限最后一级使用
+                                         "name":"{title}"//绑定字段，只限最后一级可以使用
                                      }]
            		         },
            		         {
