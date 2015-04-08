@@ -3,8 +3,29 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+
+
 </head>
 <body>
-    <div>about1</div>
+
+<div class="crumbs"> </div>
+<h1>about1 page</h1>
+
 </body>
+
+<script  src="../../js/jquery-1.10.1.min.js"></script>
+<script  src="../../js/sitemap.js"></script>
+<script  src="../../js/crumbs.js"></script>
+
+<script>
+
+    $(function(){
+        //面包屑
+        //注意，最好给crumbs加个前缀，如$(".content .crumbs")
+        $(".crumbs").crumbs();
+    })
+
+
+</script>
+
 </html>

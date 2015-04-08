@@ -1,6 +1,6 @@
 var sitemap = [
            	{
-           		"match":"/web",
+           		"match":"views",
            		"url":"/web/views/index.html",
            		"name":"首页",
            		"item":[
@@ -12,7 +12,7 @@ var sitemap = [
                                      {
                                          "match":"details",
                                          "url":"",
-                                         "name":"{title}"
+                                         "name":"{title}"//绑定字段，只限最后一级使用
                                      }]
            		         },
            		         {

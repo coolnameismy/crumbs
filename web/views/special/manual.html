@@ -8,8 +8,13 @@
 </head>
 <body>
 
-<div class="crumbs"> </div>
-<h1>news list page</h1>
+<!-- 手动面包屑 -->
+<div class="crumbs" data-enable="false">
+    <a class="level1" href="">首页</a>
+    <sapn class="gt">/</sapn>
+    <sapn class="level2" >手动加载示例</sapn>
+</div>
+<h1>manual page</h1>
 
 </body>
 
@@ -22,6 +27,7 @@
     $(function(){
         //面包屑
         //注意，最好给crumbs加个前缀，如$(".content .crumbs")
+        //手动方式其实不需要调用crumbs，但是往往crumbs是放在全局函数中，这里只是模拟执行crumbs()
         $(".crumbs").crumbs();
     })
 
